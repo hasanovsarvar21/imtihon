@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+
+}
+
+.container {
+    width: 1220px;
+    height: 54px;
+    top: 32px;
+    left: 110px;
+}
+
+.nav-logo {
+    font-size: 20px;
+}
+
+.nav-list-item>a {
+    color: #211F54;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+#manage-nav-btn {
+    color: #FFFFFF;
+    background-color: #0075FF;
+    width: 174px;
+    height: 54px;
+    left: 119px;
+    border-radius: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+}
+
+.header-bottom-text {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 73.98px;
+    text-align: left;
+
+}
+
+.p {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: left;
+    color: #000000;
+    margin: 32px 0px 42px 0px;
+}
+
+.head-text-btn-buy:hover {
+    border: 1px solid #000000;
+    background-color: transparent;
+    color: #ee1313;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.head-text-btn-buy {
+    background-color: #0075FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+
+    width: 217px;
+    height: 72px;
+    border-radius: 14px ;
+
+}
+.head-bottom-img>img {
+    width: 650px;
+  }
